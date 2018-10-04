@@ -1,0 +1,8 @@
+function display(data) {
+  console.log(data)
+}
+
+const futureData = fetch('https://twitter.com/olegafx/tweets/1')
+futureData.then(display) // прикрепляем дополнительный функционал
+
+console.log('Me first!')

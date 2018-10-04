@@ -1,0 +1,12 @@
+function display(data) {
+  console.log(data)
+}
+
+const dataFromAPI = fetchAndWait('https://twitter.com/olegafx/tweets/1')
+
+// пользователь ничего не может сделать в это время!
+// а ведь это может длиться долго
+
+display(dataFromAPI)
+
+console.log('Me later!')
