@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:site": "mdx-deck build deck.mdx",
+    "build:site": "mdx-deck build --no-html deck.mdx",
     "pdf": "mdx-deck pdf deck.mdx",
     "start": "mdx-deck deck.mdx",
     "test": "echo \"Error: no test specified\" && exit 1"
