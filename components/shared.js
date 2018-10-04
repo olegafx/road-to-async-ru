@@ -22,6 +22,11 @@ export const Highlight = styled.span`
   font-weight: bold;
 `
 
+export const Link = styled.a`
+  color: #07c;
+  text-decoration: none;
+`
+
 export const List = styled.div`
   text-align: left;
 `
